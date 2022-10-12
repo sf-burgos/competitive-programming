@@ -1,0 +1,25 @@
+/*
+  N -> sum(square(0...N);
+ */
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author brayan.burgosd
+ */
+public class newJavaFile {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int x = 0;
+        for (int i = 0; i<=N; i++){
+            x += i*i;
+        }
+        System.out.println(x);
+    }
+}
